@@ -1,59 +1,59 @@
-body {
-	background: black;
-	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-}
 
+body {
+    background: black;
+}
 .postcard {
-	background: white;
-	width: 500px;
-	height: 320px;
-	margin: auto;
+    background: white;
+    width: 400px;
+    height: 300px;
+    margin: auto;
 }
 .postcard-header {
-	display: flex;
+    display: flex;
 }
-.postcatyrd-header img {
-	width: 50px;
-	height: 50px;
+.postcard-header img {
+    width: 50px;
+    height: 50px;
 }
 .postcard-header img:hover {
-	transform: scale(1.5);
+    transform: scale(1.5);
 }
 .postcard-header h1 {
-	width: 420px;
-	margin: 0;
+    font-family: "Dancing Script", serif;
+     width: 300px;
+     margin: 0;
+     padding-left: 10px;
 }
-
 .postcard-body {
-	display: flex;
+    display: flex;
 }
 
 .body-left p:first-child {
-	margin-top: 0;
+    margin-top: 0;
+    font-family: "Dancing Script", serif;
 }
-
 .body-left,
 .body-right {
-	padding: 10px;
+    padding: 10px;
 }
 input {
-	border-bottom: grey;
-	border: none;
-	background: rgba(35, 36, 36, 0.151);
+    border: none;
+    border-bottom: grey;
+    font-family: "Dancing Script", serif;
+    background-color: bisque;
 }
 input:hover {
-	text-decoration: underline;
+    background-color: burlywood;
+    text-decoration: underline;
 }
 .postcard-footer {
-	text-align: center;
-	font-family: "Arial";
-	padding: 10px;
+    text-align: center;
 }
 button {
-	background-color: rgb(63, 223, 0);
-	padding: 5px;
-	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    background-color: aqua;
+    padding: 10px;
+    font-family: "Dancing Script", serif;
 }
 button:hover {
-	background-color: rgba(1, 141, 255, 0.699);
+    background-color: aquamarine;
 }
